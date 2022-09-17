@@ -49,7 +49,7 @@ aside{
     left: 0;
     top: 0;
     min-width: 275px;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     overflow-y: scroll;
 }
 
@@ -153,8 +153,8 @@ main{
 }
 
 .link > img{
-    height: 20px;
-    width: 17.5px;
+    height: 17px;
+    width: 15.5px;
     margin-right: 20px;
     cursor: pointer;
 }
@@ -251,6 +251,48 @@ header{
 }
 
 .header-RHS{
-    
+    width: 50%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    justify-content: flex-end;
+    padding-right: 30px;
 }
+
+.header-game-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+.header-game-icon{
+    filter: invert(1);
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.header-game{
+    font-size: 1.2rem;
+}
+
+.header-activity{
+    color: white;
+    margin-right: 40px;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid #8757C3;
+}
+
+.header-pfp{
+    background-image: url(images/man.png);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px #222426 solid;
+}
+
+
 
