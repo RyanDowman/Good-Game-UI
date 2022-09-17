@@ -6,7 +6,7 @@ This project is not for profit nor distribution and is merely for practice of ma
 
 Design Changes:
 	- Side Nav: Due to large amount of content a scroll overflow has been applied for ease of use and more flexible scaling
-	- Header: Due to the unability to control suitable contrast with the main image the header utilises a dark background with a background blur to assure suitable contrast.
+	- Header: Due to the unability to control suitable contrast with the main image the header utilises a dark background with a background blur to assure suitable contrast. On top of this one element was removed from the header due to it being non-sensical as well as a toggle element be replaced with an activity status element.
 
 Note:
 All icons and images included in the webpage are based off the likeness of the ones present in the design and made by myself with Figma. Only the images listed below have been taken from external sources:
