@@ -25,6 +25,8 @@ aside{
     position: fixed;
     left: 0;
     top: 0;
+    min-width: 250px;
+    font-size: 1.1rem;
 }
 
 main{
@@ -36,12 +38,13 @@ main{
 
 .side-logo{
     width: 7vw;
+    min-width: 100px;
     height: auto;
     margin: 0px 0px 0px 10px;
 }
 
 .side-nav{
-    margin-left: 2vw;
+    margin-left: 40px;
     display: flex;
     flex-direction: column;
     font-weight: bold;
@@ -61,6 +64,7 @@ main{
     font-weight: bold;
     z-index: 1;
     margin-top: 60px;
+    cursor: pointer;
 }
 
 .side-playbutton-circle{
@@ -114,11 +118,39 @@ main{
     display: flex;
     align-items: center;
     margin-top: 30px;
+    width: 100%;
+    position: relative;
+}
+
+.link >p:hover{
+    color: white;
+    transition: 0.2s ease color;
+    cursor: pointer;
 }
 
 .link > img{
     height: 20px;
     width: 17.5px;
     margin-right: 20px;
+    cursor: pointer;
 }
 
+.notification{
+    visibility: hidden;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #8757C3;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 20px;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+.on{
+    visibility: visible;
+}
