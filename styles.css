@@ -19,7 +19,7 @@ body{
 
 aside{
     background-color: #1D1D1D;
-    color: #98999e;
+    color: #78787c;
     width: 15%;
     height: 100%;
 }
@@ -29,21 +29,24 @@ main{
 }
 
 .side-logo{
-    width: 8vw;
+    width: 7vw;
     height: auto;
     margin: 0px 0px 0px 10px;
 }
 
 .side-nav{
-    height: 100%;
     margin-left: 2vw;
     display: flex;
     flex-direction: column;
     font-weight: bold;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin-top: 100px;
 }
 
 .side-playbutton{
-    width: 135px;
+    width: 145px;
     height: 45px;
     color: white;
     background-color: #8757C3;
@@ -87,15 +90,15 @@ main{
 
 @keyframes pulse {
     0%{
-        width: 35px;
-        height: 35px;
+        width: 45px;
+        height: 45px;
         opacity: 1;
     }
 
     100%{
-        width: 55px;
-        height: 55px;
-        right: -9px;
+        width: 65px;
+        height: 65px;
+        right: -10px;
         opacity: 0;
     }
 }
@@ -113,7 +116,7 @@ main{
 
 .link > img{
     height: 20px;
-    width: auto;
+    width: 17.5px;
     margin-right: 20px;
 }
 
