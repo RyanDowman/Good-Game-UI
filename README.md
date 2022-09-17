@@ -6,4 +6,7 @@ This project is not for profit nor distribution and is merely for practice of ma
 
 Note:
 All icons and images included in the webpage are based off the likeness of the ones present in the design and made by myself with Figma. Only the images listed below have been taken from external sources:
-	- Image Name (Address)
+	- Instagram Icon (Iconfinder)
+	- Facebook Icon (Iconfinder)
+	- Tumblr Icon (Iconfinder)
+	- Twitter Icon (Iconfinder)
