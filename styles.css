@@ -17,6 +17,28 @@ body{
     background-color: #222426;
 }
 
+
+::-webkit-scrollbar {
+    width: 7.5px;
+    padding-right: 10px;
+}
+  
+
+::-webkit-scrollbar-track { 
+    border-radius: 20px;
+}
+   
+
+::-webkit-scrollbar-thumb {
+    background: #555555; 
+    border-radius: 10px;
+}
+  
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2b2b2b; 
+}
+
 aside{
     background-color: #1D1D1D;
     color: #78787c;
@@ -27,6 +49,7 @@ aside{
     top: 0;
     min-width: 250px;
     font-size: 1.1rem;
+    overflow-y: scroll;
 }
 
 main{
@@ -154,3 +177,28 @@ main{
 .on{
     visibility: visible;
 }
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.socials >img{
+    width: 20px;
+    height: 20px;
+    filter: invert(50%);
+    cursor: pointer;
+}
+
+.socials >img:hover{
+    filter: invert(75%);
+}
+
+.help-links{
+    margin-bottom: 50px;
+}
+
