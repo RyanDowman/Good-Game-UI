@@ -289,8 +289,8 @@ header{
 .header-pfp{
     background-image: url(images/man.png);
     background-size: cover;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     border: 3px #222426 solid;
 }
@@ -346,10 +346,60 @@ header{
 .main-image{
     height: 100%;
     width: 100%;
-    background-image: radial-gradient(ellipse at 60% 35%,rgba(0, 0, 0, 0.23),rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 1)), url(images/halo.jpg);
+    background-image: radial-gradient(ellipse at 60% 35%,#0000003b,#222426e7,#222426), url(images/halo.jpg);
     background-size: cover;
     background-position: top;
-    filter: brightness(1.8);
+}
+
+.main-content-nav{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.main-content-nav-primary{
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+}
+
+.main-content-pfp{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: #8757C3 2px solid;
+}
+
+.main-content-button{
+    width: 150px;
+    height: 45px;
+    background-color: blue;
+    margin-left: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    border: 2px solid transparent;
+    border-radius: 3px;
+}
+
+.stream{
+    background-color: #384045;
+}
+
+.donate{
+    background-color: transparent;
+    border: 2px solid #384045;
+}
+
+.edit{
+    height: 30px;
+    width: 30px;
+    filter: invert(0.075);
+    margin-left: 50px;
 }
 
 
