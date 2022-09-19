@@ -359,6 +359,10 @@ header{
     background-color: rgba(255, 0, 0, 0);
 }
 
+.main-content-nav-primary >*{
+    cursor: pointer;
+}
+
 .main-content-nav-primary{
     display: flex;
     padding-left: 30px;
@@ -382,7 +386,7 @@ header{
     align-items: center;
     justify-content: center;
     font-weight: 500;
-    border: 2px solid transparent;
+    border: 2px solid #384045;
     border-radius: 3px;
 }
 
@@ -390,16 +394,70 @@ header{
     background-color: #384045;
 }
 
+.stream:hover{
+    background-color: #8757C3;
+    border: 2px solid #8757C3;
+}
+
 .donate{
     background-color: transparent;
-    border: 2px solid #384045;
+}
+
+.donate:hover{
+    border: 2px solid #8757C3;
 }
 
 .edit{
     height: 30px;
     width: 30px;
-    filter: invert(0.4);
+    filter: invert(1);
     margin-left: 40px;
+}
+
+.explore-content{
+    width: 100%;
+    color: rgb(189, 189, 189);
+    padding-top: 30px;
+}
+
+.explore-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.explore-links{
+    width: 60%;
+    max-width: 750px;
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-around;
+}
+
+.explore-link{
+    border-bottom: transparent solid 3px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.explore-link:hover{
+    border-bottom: #8757C3 solid 3px;
+    transition: 0.15s border ease;
+    color: white;
+}
+
+.explore-socials{
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.explore-socials > img{
+    height: 20px;
+    width: 20px;
+    filter: invert(0.8);
 }
 
 
