@@ -497,7 +497,7 @@ header{
 }
 
 #game1{
-    background: linear-gradient(45deg, rgba(38,46,58,1) 0%, rgba(44,44,50,1) 100%);
+    background: linear-gradient(45deg, rgba(38,46,58,0.9) 0%, rgba(44,44,50,0.9) 100%);
 }
 
 #game2{
@@ -519,6 +519,7 @@ header{
 
 .game-maintitle{
     font-size: 3.2rem;
+    z-index: 2;
 }
 
 .game-maintitle >span{
@@ -552,10 +553,18 @@ header{
     background-color: #8757C3;
 }
 
-.game-image{
+#pubg{
     position: absolute;
     right: 0;
     filter: contrast(.8);
+}
+
+#vr{
+    position: absolute;
+    right: 0;
+    height: 150%;
+    width: auto;
+    z-index: 1;
 }
 
 
