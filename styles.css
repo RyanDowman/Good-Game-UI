@@ -332,10 +332,11 @@ header{
 }
 
 .main-details{
-    color: #494949;
+    color: #757575;
     font-weight: bold;
     font-size: 1.3rem;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .main-details > span{
@@ -482,7 +483,7 @@ header{
 .game{
     margin-top: 30px;
     width: 50%;
-    max-width: 700px;
+    max-width: 750px;
     background-color: black;
     height: 400px;
     border-radius: 10px;
@@ -492,7 +493,6 @@ header{
     padding: 30px;
     color: white;
     font-weight: bold;
-    margin-right: 80px;
     min-width: 640px;
     transition: ease 0.75s transform;
 }
@@ -503,6 +503,7 @@ header{
 
 #game1{
     background: linear-gradient(45deg, rgba(38,46,58,0.9) 0%, rgba(44,44,50,0.9) 100%);
+    margin-right: 40px;
 }
 
 #game2{
