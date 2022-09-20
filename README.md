@@ -14,3 +14,6 @@ All icons and images included in the webpage are based off the likeness of the o
 	- Facebook Icon (Iconfinder)
 	- Tumblr Icon (Iconfinder)
 	- Twitter Icon (Iconfinder)
+	- VR Headset (www.nicepng.com)
+	- PUBG Image (www.freeiconspng.com)
+	- Halo Image (wallpapercave.com)

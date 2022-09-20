@@ -472,7 +472,7 @@ header{
 
 .games{
     width: 100%;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-bottom: 50px;
     display: flex;
     align-items: center;
@@ -494,6 +494,11 @@ header{
     font-weight: bold;
     margin-right: 80px;
     min-width: 640px;
+    transition: ease 0.75s transform;
+}
+
+.game:hover{
+    transform: scale(1.04);
 }
 
 #game1{
