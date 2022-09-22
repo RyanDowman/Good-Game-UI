@@ -613,5 +613,54 @@ header{
     cursor: pointer;
 }
 
+.statistics{
+    display: none;
+}
 
+.stats-maincontent{
+    width: 90%;
+    background-color: #1D1D1D;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+}
 
+.stats-img{
+    height: 200px;
+    width: auto;
+}
+
+.stats-misc{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.stats-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+}
+
+.stats-info >p:first-child{
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.stats-info >p:nth-child(2){
+    color: rgb(185, 185, 185);
+    font-size: 1.25rem;
+}
+
+.stats-info:hover >p:nth-child(2){
+    color: #8757C3;
+}
+
+.stats-info >p:first-child>span{
+    font-size: 0.75rem;
+    position: absolute;
+    margin-left: 10px;
+}
